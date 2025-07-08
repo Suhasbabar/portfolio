@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suhas Babar – Certificates</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background: linear-gradient(to bottom, #000000, #2c2c2c);
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+      }
+
+      h1 {
+        margin-bottom: 40px;
+        color: #ffffff;
+      }
+
+      .cert-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .cert-card {
+        background: linear-gradient(to bottom, #2a2a2a, #3a3a3a);
+        border-radius: 10px;
+        flex: 1 1 300px;
+        max-width: 320px;
+        padding: 16px;
+        box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .cert-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 12px 25px rgba(255, 255, 255, 0.2);
+      }
+
+      .cert-card img {
+        width: 100%;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+      }
+
+      .cert-card h3 {
+        margin: 10px 0 5px;
+        color: #ffffff;
+      }
+
+      .cert-card p {
+        color: #ccc;
+        font-size: 14px;
+      }
+
+      @media (max-width: 768px) {
+        .cert-card {
+          flex: 1 1 90%;
+          max-width: 90%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Suhas Babar – My Certificates</h1>
+    <div class="cert-container">
+
+      <div class="cert-card">
+        <img src="/certificate/webDevelopment.jpg" alt="Web Development Certificate" />
+        <h3>Web Development Bootcamp</h3>
+        <p>Completed a full-stack web development course covering HTML, CSS, JavaScript, React, Node.js, and MongoDB with hands-on projects.</p>
+      </div>
+
+      <div class="cert-card">
+        <img src="/certificate/JavaInter.jpg" alt="Java Internship Certificate" />
+        <h3>Java Internship Program</h3>
+        <p>Completed internship in Java programming, focusing on OOP concepts, JDBC, multithreading, and basic project deployment techniques.</p>
+      </div>
+
+      <div class="cert-card">
+        <img src="/certificate/Frontend.jpg" alt="Frontend Development Certificate" />
+        <h3>Frontend Development</h3>
+        <p>Certified in frontend development with practical skills in building responsive interfaces using HTML5, CSS3, JavaScript, and Bootstrap.</p>
+      </div>
+
+    </div>
+  </body>
+</html>
