@@ -50,7 +50,7 @@ export const Project = () => {
               </h3>
               <p className="text-gray-300 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {project.tech.map((tech, i) => (
+                {project.tech?.map((tech, i) => (
                   <span
                     key={i}
                     className="bg-blue-500/10 text-blue-400 py-1 px-3 rounded-full text-xs"
