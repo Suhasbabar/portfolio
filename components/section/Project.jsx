@@ -17,7 +17,7 @@ export const Project = () => {
       description:
         "A responsive portfolio site to showcase my skills, projects, and resume with smooth navigation and animation effects.",
       tech: ["React", "Tailwind CSS", "Vercel"],
-      demoLink: "https://sangolacollegesangola.netlify.app",
+      demoLink: "https://portfolio-three-mu-uhqm2tcvop.vercel.app/",
       codeLink: "#",
     },
     {

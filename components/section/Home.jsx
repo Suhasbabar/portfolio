@@ -5,6 +5,8 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faJava } from "@fortawesome/free-brands-svg-icons";
+import suhasImage from "/public/suhas.jpg";
+import resume from "/public/Resume.pdf"
 export const Home = () => {
   return (
     <section
@@ -63,7 +65,7 @@ export const Home = () => {
 
             <div className="flex justify-center md:justify-start space-x-4 mt-6">
               <a
-                href="/CV.pdf"
+                href={resume}
                 download
                 className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
               >
@@ -92,7 +94,7 @@ export const Home = () => {
               {/* Circular Image */}
               <div className="w-52 h-52 md:w-60 md:h-60 overflow-hidden rounded-full border-4 border-black relative z-10">
                 <img
-                  src="/suhasbabar.jpg"
+                   src={suhasImage}
                   alt="Developer"
                   className="w-full h-full object-cover"
                 />
