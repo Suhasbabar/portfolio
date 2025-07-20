@@ -6,7 +6,7 @@ import { faNodeJs } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 import { faJava } from "@fortawesome/free-brands-svg-icons";
 import suhasImage from "/public/suhas.jpg";
-import resume from "/public/Resume.pdf"
+import resume from "/public/UpdatedResume.pdf"
 export const Home = () => {
   return (
     <section
