@@ -23,7 +23,7 @@ export const Home = () => {
             <p className="text-gray-400 text-lg max-w-lg mx-auto md:mx-0">
               I'm a passionate{" "}
               <span className="text-blue-400 font-semibold">
-                MERN Full Stack Developer
+               Full Stack Developer
               </span>{" "}
               with a strong foundation in web development, eager to build
               modern, responsive, and accessible user interfaces. As a fresher,

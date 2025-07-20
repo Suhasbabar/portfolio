@@ -22,8 +22,8 @@ export const Project = () => {
     },
     {
       title: "Weather App",
-      description:"Upcoming in Few Days",
-      demoLink: "#",
+      description:"A responsive web app built with React and Tailwind CSS that displays real-time weather data using the OpenWeatherMap API. Users can search any city to view current temperature, humidity, wind speed, and local time.",
+      demoLink: "https://weather-app-api-vert-sigma.vercel.app/",
       codeLink: "#",
     },
   ];
